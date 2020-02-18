@@ -164,7 +164,7 @@ a .create:hover {
     box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
 }
 .block {
-    display: none;
+    display: none
 }
 .middlef {
     display: flex;
