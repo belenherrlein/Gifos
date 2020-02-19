@@ -2,17 +2,22 @@
     font-family: 'Chakra Petch', sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 1400px;
+    font-size: .9rem;
 }
+
 body {
 background: #FFFAFE;
 }
+
 header {
     text-align: left;
+    width: 100%;
     background:  linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
     box-shadow: 0 1px 0 0 #110038;
     color: white;
-    font-size: 13px;
-    line-height: 170%;
+    font-size: 1rem;
+    line-height: 3vh;
 }
 p {
     padding-left: 1%;
@@ -20,17 +25,14 @@ p {
 .gifos {
     display: flex;
     position: relative;
-    margin-top: 2%;
-    margin-left: 7%;
-    margin-bottom: -2%;
+    transform: translate(-67rem, -2rem);
 }
 .lead {
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: nowrap ;
     margin-right: 7%;
     position: relative;
-    transform: translateY(-55%);
+    transform: translateY(2rem);
 }
 .newthemes img {
     position: relative  ;
@@ -49,7 +51,7 @@ p {
     width: 11%;
     height: 4.5vh;
     line-height: 2vh;
-    font-size: 14px;
+    font-size: 1rem;
     color: #110038;
     background: #F7C9F3;
 }
@@ -178,6 +180,7 @@ a .create:hover {
 }
 .middlef p {
     text-align: left;
+    line-height: 4vh ;
 }
 .show {
     position: relative;

@@ -1,1 +1,1 @@
-console.log('zaraza')
+const search = document.
