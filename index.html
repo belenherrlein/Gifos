@@ -10,66 +10,38 @@
     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><p> ¡Bienvenidos/as a Guifos.com!------- Donde los gifs estan.///////</p></header>    
-    <div class="lead">
-        <a class= "mygif" href="/create.html"> <p>M</p>is Gifos </a>
-        <button class="newthemes"> Elegir tema <img src="/images/dropdown.svg" alt="Temas"><input type="checkbox" id="hide"> 
-            <ul class= "themes" >
-                <li><a href="/style/stylesday.css">Sailor Day</a></li>
-                <li> <a href="/style/stylenight.css">Sailor Night</a></li>
-            </ul>
+    <main>
+        <header>
+            <p> ¡Bienvenidos/as a Guifos.com!------- Donde los gifs estan.///////</p>
+        </header>    
+        <div class="lead">
+            <a class= "mygif" href="/create.html"> <p>M</p>is Gifos </a>
+            <button class="newthemes"> Elegir tema <img src="/images/dropdown.svg" alt="Temas"><input type="checkbox" id="hide"> 
+                <ul class= "themes" >
+                    <li><a href="/style/stylesday.css">Sailor Day</a></li>
+                    <li> <a href="/style/stylenight.css">Sailor Night</a></li>
+                </ul>
+            </button>
+            <a class="create" href="create.html"><button class="create"> Crear Guifos</button></a>
             <img class= "gifos" src="/images/gifOF_logo.png" alt="Gifos">
-        </button>
-        <a class="create" href="create.html"><button class="create"> Crear Guifos</button></a>
-    </div>
-    <form class="container" >
-        <header><p>Buscar</p></header>
-        <input type="text" placeholder="  Busca gifs, hashtags, temas, busca lo que quieras…" name= "search"> 
-        <button type = "submit" id= "search"><img src="/images/lupa.svg" alt="Buscar">  Buscar</button>
-        <ul class="block">
-            <li>Resultado de búsqueda sugerido</li>
-            <li>Un resultado similar de búsqueda</li>
-            <li>Y otro más</li>
-        </ul>
-    </form>
-    <div class="middlef"> 
-        <p>  Te sugerimos:</p>
-    </div>
-    <div class="show">
-        <article class="gif1"> 
-            <header class="diferent"> 
-                <button class="close">
-                    <img src="/images/close.svg" alt="cerrar">             
-                </button>
-            </header>
-        </article>
-        <article class="gif2"> 
-            <header class="diferent"> 
-                <button class="close">
-                    <img src="/images/close.svg" alt="cerrar">             
-                </button>
-            </header>
-        </article>
-        <article class="gif3"> 
-            <header class="diferent"> 
-                <button class="close">
-                    <img src="/images/close.svg" alt="cerrar">             
-                </button>
-            </header>
-        </article>
-        <article class="gif4">
-            <iframe src="" frameborder="0"></iframe> 
-            <header class="diferent"> 
-                <button class="close">
-                    <img src="/images/close.svg" alt="cerrar">             
-                </button>
-            </header>
-        </article>
         </div>
-    <div class="middles"> <p>  Tendencias:</p></div>
-    <script src="/js/script.js"></script>
-
-    <!--DwN6UmR071VUNKSIXcIg9dmrnEvcz6aA API KEYgiphy-->
-    
+        <form class="container" >
+            <header><p>Buscar</p></header>
+            <input type="text" id="textsearch" placeholder="  Busca gifs, hashtags, temas, busca lo que quieras…" name= "search"> 
+            <button type = "submit" id= "search"><img src="/images/lupa.svg" alt="Buscar" >  Buscar</button>
+            <ul class="block">
+                <li><p>Resultado de búsqueda sugerido</p></li>
+                <li><p>Un resultado similar de búsqueda</p></li>
+                <li><p>Y otro más</p></li>
+            </ul>
+        </form>
+        <div class="middlef"> 
+            <p>  Te sugerimos:</p>
+        </div>
+        <div class="resultsGuifos"></div>
+        
+        <div class="middles"> <p>  Tendencias:</p></div>
+    </main>   
+    <script src="/js/script.js"></script> 
 </body>
 </html>
